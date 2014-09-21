@@ -15,7 +15,6 @@
         "dist" : "dist"
     },
     "scripts": [
-        "js/lib.js",
-        "dist/player.js"
+        "js/lib.js"
     ]
 }
