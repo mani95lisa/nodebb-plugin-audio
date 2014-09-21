@@ -1,0 +1,21 @@
+{
+    "id": "nodebb-plugin-audio",
+    "name": "NodeBB Plugin Audio",
+    "description": "NodeBB plugin play audio",
+    "url": "https://github.com/mani95lisa/nodebb-plugin-audio",
+    "library": "./index.js",
+    "hooks": [
+        { "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 }
+    ],
+    "css": [
+        "dist/playlist.css"
+    ],
+    "staticDirs": {
+        "img" : "img",
+        "dist" : "dist"
+    },
+    "scripts": [
+        "js/lib.js",
+        "dist/player.js"
+    ]
+}
