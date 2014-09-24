@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-audio",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "NodeBB plugin play audio",
   "main": "index.js",
   "scripts": {

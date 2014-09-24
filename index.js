@@ -9,7 +9,7 @@
             var audioString = arr[0];
             re = /href="(.*?)">(.*?)</gm;
             arr = audioString.match(re);
-            var result = '<ul id="playlist"> ';
+            var result = '<ul id="playlist" style="list-style-type: none;padding: 0;">';
             arr.forEach(function(value){
                 var url = value.replace(re, '$1');
                 var name = value.replace(re, '$2');
