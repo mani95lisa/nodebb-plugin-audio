@@ -1,15 +1,16 @@
-
-
-ul, ol {
+#playlist ul,
+#playlist ol {
     padding: 0;
     margin-bottom: 0;
 }
-ul, ul li, ol, ol li {
+#playlist ul,
+#playlist ul li,
+#playlist ol,
+#playlist ol li {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 
 #playlist {
     width: 50%;
